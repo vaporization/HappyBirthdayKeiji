@@ -59,9 +59,8 @@ body{
 
 .badge{
   display: inline-flex;
-  margin: 0 auto;
-  gap:10px;
-  align-items:center;
+  gap: 10px;
+  align-items: center;
   padding: 8px 14px;
   border-radius: 999px;
   background: rgba(139,92,246,0.18);
@@ -69,7 +68,11 @@ body{
   font-weight: 700;
   letter-spacing: .5px;
   width: fit-content;
+
+  /* 👇 this is the fix */
+  margin: 0 auto 12px auto;
 }
+
 
 h1{
   margin: 12px 0 8px;
