@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy 21st, Keiji 🎉</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="confetti"></canvas>
+
+  <main class="wrap">
+    <header class="card hero">
+      <div class="badge">🎂 21 🎂</div>
+      <h1>Happy Birthday, <span id="name">Keiji</span>!</h1>
+      <p class="subtitle">
+        Officially level <strong>21</strong>.  
+        Tonight we celebrate responsibly-ish 😄
+      </p>
+
+      <button id="popBtn" class="btn">Tap to pop confetti 🎉</button>
+      <p class="hint">Best viewed on your phone. (Yes, I planned this.)</p>
+    </header>
+
+    <section class="card">
+      <h2>🍻 A 21st Birthday Toast</h2>
+      <p id="toast" class="toast">
+        To Keiji — may your year be loud laughs, good friends, and no regrettable screenshots.
+      </p>
+      <div class="row">
+        <button id="newToastBtn" class="btn secondary">New toast ✨</button>
+        <button id="copyToastBtn" class="btn secondary">Copy toast 📋</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>⭐ 21 Reasons You’re a Legend</h2>
+      <p class="small">Tap to generate. Edit the list in <code>script.js</code> to make it personal.</p>
+      <div class="row">
+        <button id="reasonsBtn" class="btn">Generate 21 reasons</button>
+        <button id="copyReasonsBtn" class="btn secondary">Copy list 📋</button>
+      </div>
+      <ol id="reasons" class="reasons"></ol>
+    </section>
+
+    <footer class="footer">
+      <p>Made with ✨ and mild chaos by your buddy.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
