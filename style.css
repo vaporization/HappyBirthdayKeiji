@@ -58,7 +58,8 @@ body{
 }
 
 .badge{
-  display:inline-flex;
+  display: inline-flex;
+  margin: 0 auto;
   gap:10px;
   align-items:center;
   padding: 8px 14px;
@@ -101,10 +102,12 @@ h2{
 }
 
 .row{
-  display:flex;
+  display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
+
 
 .btn{
   appearance:none;
@@ -159,4 +162,16 @@ code{
   background: rgba(255,255,255,0.10);
   padding: 2px 6px;
   border-radius: 8px;
+}
+
+/* Center text inside cards */
+.card h1,
+.card h2,
+.card p,
+.card .subtitle,
+.card .toast,
+.card .small,
+.card ol,
+.card li {
+  text-align: center;
 }
