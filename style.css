@@ -111,6 +111,22 @@ h2{
   justify-content: flex-start;
 }
 
+.row.split {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row.split .left,
+.row.split .right {
+  display: flex;
+  gap: 10px;
+}
+
+.row.split .right {
+  margin-left: auto;
+}
+
 
 .btn{
   appearance:none;
@@ -177,4 +193,9 @@ code{
 .card ol,
 .card li {
   text-align: center;
+}
+
+.center-btn {
+  display: flex;
+  justify-content: center;
 }
